@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+		<listener class-name="TestNgPractic2.CustomeListener"></listener>
+		<listener class-name="extentlisteners.ExtentListeners"></listener>
+	</listeners>
+
+
+	<test name="TestCases">
+		<parameter name="username" value="Smita"></parameter>
+		<parameter name="password" value="pass123"></parameter>
+		<groups>
+			<run>
+				<include name="smoke" />
+				<include name="regression"></include>
+			</run>
+		</groups>
+
+		<classes>
+
+			<class name="TestNgPractic2.TestCase1">
+				<!-- <methods> 
+				   <include name="userReg"></include> 
+				    <exclude name="doLogin"></exclude> 
+					<include name="testm1"></include>
+					<include name="testm2"></include> 
+				</methods> -->
+			</class>
+			<class name="TestNgPractic2.TestCase2"></class>
+
+
+		</classes>
+	</test> <!-- Test -->
+
+
+
+	<test name="TestCase2">
+		<parameter name="username" value="Anil"></parameter>
+		<parameter name="password" value="pass"></parameter>
+		<classes>
+			<class name="TestNgPractic2.TestCase1" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

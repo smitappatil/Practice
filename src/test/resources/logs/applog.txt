@@ -1,0 +1,4 @@
+INFO    2023-02-02 16:37:30,359 [main] testNGExamples.TestRegistrationPage  - ChromeDriver Launched
+INFO    2023-02-02 16:37:31,265 [main] testNGExamples.TestRegistrationPage  - Entering value in Element : fisrtName_XPATH   Value = Aradhya
+INFO    2023-02-02 16:37:31,581 [main] testNGExamples.TestRegistrationPage  - Browser Closed
+INFO    2023-02-02 16:37:31,587 [main] testProperties.TestRegistration  - DBConnectio closed

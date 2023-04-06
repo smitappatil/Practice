@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[userReg : TEST CASE PASSED ..]]>
+    </line>
+    <line>
+      <![CDATA[userReg : TEST CASE PASSED ..]]>
+    </line>
+    <line>
+      <![CDATA[doLogin : TEST CASE PASSED ..]]>
+    </line>
+    <line>
+      <![CDATA[testm1 : TEST CASE PASSED ..]]>
+    </line>
+    <line>
+      <![CDATA[tc2m1 : TEST CASE PASSED ..]]>
+    </line>
+    <line>
+      <![CDATA[userReg : TEST CASE PASSED ..]]>
+    </line>
+    <line>
+      <![CDATA[userReg : TEST CASE PASSED ..]]>
+    </line>
+    <line>
+      <![CDATA[doLogin : TEST CASE PASSED ..]]>
+    </line>
+    <line>
+      <![CDATA[testm1 : TEST CASE PASSED ..]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-02-03T22:21:21 IST" name="Suite" finished-at="2023-02-03T22:21:22 IST" duration-ms="948">
+    <groups>
+      <group name="regression">
+        <method signature="TestCase1.userReg(java.lang.String,java.lang.String)[pri:0, instance:TestNgPractic2.TestCase1@f80945f]" name="userReg" class="TestNgPractic2.TestCase1"/>
+        <method signature="TestCase1.doLogin(java.lang.String,java.lang.String)[pri:1, instance:TestNgPractic2.TestCase1@f80945f]" name="doLogin" class="TestNgPractic2.TestCase1"/>
+        <method signature="TestCase1.userReg(java.lang.String,java.lang.String)[pri:0, instance:TestNgPractic2.TestCase1@6c45ee6e]" name="userReg" class="TestNgPractic2.TestCase1"/>
+        <method signature="TestCase1.doLogin(java.lang.String,java.lang.String)[pri:1, instance:TestNgPractic2.TestCase1@6c45ee6e]" name="doLogin" class="TestNgPractic2.TestCase1"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TestCase1.doLogin(java.lang.String,java.lang.String)[pri:1, instance:TestNgPractic2.TestCase1@f80945f]" name="doLogin" class="TestNgPractic2.TestCase1"/>
+        <method signature="TestCase2.tc2m1()[pri:3, instance:TestNgPractic2.TestCase2@363042d7]" name="tc2m1" class="TestNgPractic2.TestCase2"/>
+        <method signature="TestCase1.testm1()[pri:2, instance:TestNgPractic2.TestCase1@f80945f]" name="testm1" class="TestNgPractic2.TestCase1"/>
+        <method signature="TestCase1.doLogin(java.lang.String,java.lang.String)[pri:1, instance:TestNgPractic2.TestCase1@6c45ee6e]" name="doLogin" class="TestNgPractic2.TestCase1"/>
+        <method signature="TestCase1.testm1()[pri:2, instance:TestNgPractic2.TestCase1@6c45ee6e]" name="testm1" class="TestNgPractic2.TestCase1"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-02-03T22:21:21 IST" name="TestCases" finished-at="2023-02-03T22:21:21 IST" duration-ms="132">
+      <class name="TestNgPractic2.TestCase1">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:TestNgPractic2.TestCase1@f80945f]" started-at="2023-02-03T22:21:21 IST" name="beforetest" finished-at="2023-02-03T22:21:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="beforegp()[pri:0, instance:TestNgPractic2.TestCase1@f80945f]" started-at="2023-02-03T22:21:21 IST" name="beforegp" finished-at="2023-02-03T22:21:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforegp -->
+        <test-method signature="userReg(java.lang.String,java.lang.String)[pri:0, instance:TestNgPractic2.TestCase1@f80945f]" started-at="2023-02-03T22:21:21 IST" name="userReg" data-provider="dp" finished-at="2023-02-03T22:21:21 IST" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smita]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[patil]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[userReg : TEST CASE PASSED ..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userReg -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestNgPractic2.TestCase1@f80945f]" started-at="2023-02-03T22:21:21 IST" name="aftermethod" finished-at="2023-02-03T22:21:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestNgPractic2.TestCase1@f80945f]" started-at="2023-02-03T22:21:21 IST" name="beforemethod" finished-at="2023-02-03T22:21:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="userReg(java.lang.String,java.lang.String)[pri:0, instance:TestNgPractic2.TestCase1@f80945f]" started-at="2023-02-03T22:21:21 IST" name="userReg" data-provider="dp" finished-at="2023-02-03T22:21:21 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smita1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[patil1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[userReg : TEST CASE PASSED ..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userReg -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestNgPractic2.TestCase1@f80945f]" started-at="2023-02-03T22:21:21 IST" name="beforemethod" finished-at="2023-02-03T22:21:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestNgPractic2.TestCase1@f80945f]" started-at="2023-02-03T22:21:21 IST" name="aftermethod" finished-at="2023-02-03T22:21:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String)[pri:1, instance:TestNgPractic2.TestCase1@f80945f]" started-at="2023-02-03T22:21:21 IST" name="doLogin" description="Login test" finished-at="2023-02-03T22:21:21 IST" depends-on-methods="TestNgPractic2.TestCase1.userReg" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Smita]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[doLogin : TEST CASE PASSED ..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="beforegp()[pri:0, instance:TestNgPractic2.TestCase1@f80945f]" started-at="2023-02-03T22:21:21 IST" name="beforegp" finished-at="2023-02-03T22:21:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforegp -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestNgPractic2.TestCase1@f80945f]" started-at="2023-02-03T22:21:21 IST" name="aftermethod" finished-at="2023-02-03T22:21:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestNgPractic2.TestCase1@f80945f]" started-at="2023-02-03T22:21:21 IST" name="beforemethod" finished-at="2023-02-03T22:21:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="aftergp()[pri:0, instance:TestNgPractic2.TestCase1@f80945f]" started-at="2023-02-03T22:21:21 IST" name="aftergp" finished-at="2023-02-03T22:21:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftergp -->
+        <test-method signature="testm1()[pri:2, instance:TestNgPractic2.TestCase1@f80945f]" started-at="2023-02-03T22:21:21 IST" name="testm1" finished-at="2023-02-03T22:21:21 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testm1 : TEST CASE PASSED ..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testm1 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestNgPractic2.TestCase1@f80945f]" started-at="2023-02-03T22:21:21 IST" name="aftermethod" finished-at="2023-02-03T22:21:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestNgPractic2.TestCase1@f80945f]" started-at="2023-02-03T22:21:21 IST" name="beforemethod" finished-at="2023-02-03T22:21:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="aftergp()[pri:0, instance:TestNgPractic2.TestCase1@f80945f]" started-at="2023-02-03T22:21:21 IST" name="aftergp" finished-at="2023-02-03T22:21:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftergp -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:TestNgPractic2.TestCase1@f80945f]" started-at="2023-02-03T22:21:21 IST" name="aftertest" finished-at="2023-02-03T22:21:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- TestNgPractic2.TestCase1 -->
+      <class name="TestNgPractic2.TestCase2">
+        <test-method signature="tc2m1()[pri:3, instance:TestNgPractic2.TestCase2@363042d7]" started-at="2023-02-03T22:21:21 IST" name="tc2m1" finished-at="2023-02-03T22:21:21 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tc2m1 : TEST CASE PASSED ..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc2m1 -->
+      </class> <!-- TestNgPractic2.TestCase2 -->
+    </test> <!-- TestCases -->
+    <test started-at="2023-02-03T22:21:22 IST" name="TestCase2" finished-at="2023-02-03T22:21:22 IST" duration-ms="64">
+      <class name="TestNgPractic2.TestCase1">
+        <test-method is-config="true" signature="beforesuit()[pri:0, instance:TestNgPractic2.TestCase1@6c45ee6e]" started-at="2023-02-03T22:21:21 IST" name="beforesuit" finished-at="2023-02-03T22:21:21 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuit -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:TestNgPractic2.TestCase1@6c45ee6e]" started-at="2023-02-03T22:21:22 IST" name="beforetest" finished-at="2023-02-03T22:21:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="userReg(java.lang.String,java.lang.String)[pri:0, instance:TestNgPractic2.TestCase1@6c45ee6e]" started-at="2023-02-03T22:21:22 IST" name="userReg" data-provider="dp" finished-at="2023-02-03T22:21:22 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smita]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[patil]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[userReg : TEST CASE PASSED ..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userReg -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestNgPractic2.TestCase1@6c45ee6e]" started-at="2023-02-03T22:21:22 IST" name="aftermethod" finished-at="2023-02-03T22:21:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestNgPractic2.TestCase1@6c45ee6e]" started-at="2023-02-03T22:21:22 IST" name="beforemethod" finished-at="2023-02-03T22:21:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="userReg(java.lang.String,java.lang.String)[pri:0, instance:TestNgPractic2.TestCase1@6c45ee6e]" started-at="2023-02-03T22:21:22 IST" name="userReg" data-provider="dp" finished-at="2023-02-03T22:21:22 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smita1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[patil1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[userReg : TEST CASE PASSED ..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userReg -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestNgPractic2.TestCase1@6c45ee6e]" started-at="2023-02-03T22:21:22 IST" name="aftermethod" finished-at="2023-02-03T22:21:22 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestNgPractic2.TestCase1@6c45ee6e]" started-at="2023-02-03T22:21:22 IST" name="beforemethod" finished-at="2023-02-03T22:21:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String)[pri:1, instance:TestNgPractic2.TestCase1@6c45ee6e]" started-at="2023-02-03T22:21:22 IST" name="doLogin" description="Login test" finished-at="2023-02-03T22:21:22 IST" depends-on-methods="TestNgPractic2.TestCase1.userReg" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anil]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[doLogin : TEST CASE PASSED ..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestNgPractic2.TestCase1@6c45ee6e]" started-at="2023-02-03T22:21:22 IST" name="aftermethod" finished-at="2023-02-03T22:21:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestNgPractic2.TestCase1@6c45ee6e]" started-at="2023-02-03T22:21:22 IST" name="beforemethod" finished-at="2023-02-03T22:21:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="testm1()[pri:2, instance:TestNgPractic2.TestCase1@6c45ee6e]" started-at="2023-02-03T22:21:22 IST" name="testm1" finished-at="2023-02-03T22:21:22 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testm1 : TEST CASE PASSED ..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testm1 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestNgPractic2.TestCase1@6c45ee6e]" started-at="2023-02-03T22:21:22 IST" name="aftermethod" finished-at="2023-02-03T22:21:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestNgPractic2.TestCase1@6c45ee6e]" started-at="2023-02-03T22:21:22 IST" name="beforemethod" finished-at="2023-02-03T22:21:22 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:TestNgPractic2.TestCase1@6c45ee6e]" started-at="2023-02-03T22:21:22 IST" name="aftertest" finished-at="2023-02-03T22:21:22 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="aftersuit()[pri:0, instance:TestNgPractic2.TestCase1@6c45ee6e]" started-at="2023-02-03T22:21:22 IST" name="aftersuit" finished-at="2023-02-03T22:21:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuit -->
+      </class> <!-- TestNgPractic2.TestCase1 -->
+    </test> <!-- TestCase2 -->
+  </suite> <!-- Suite -->
+</testng-results>
